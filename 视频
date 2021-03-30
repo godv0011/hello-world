@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"> 
+<title>php 中文网</title> 
+<style>
+video {
+    width: 100%;
+    height: auto;
+}
+</style>
+</head>
+<body>
+
+<video width="400" controls>
+  <source src="http://globalvideo.php.cn/xphp/11-10-3.mp4" type="video/mp4">
+  <source src="" type="video/ogg">
+  您的浏览器不支持HTML5视频。
+</video>
+
+
+<p>调整浏览器窗口大小查看视频播放器变化</p>
+
+</body>
+</html>
