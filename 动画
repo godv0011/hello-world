@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	 <meta charset="utf-8">
+	 <title>会动的圆</title>
+	 <style>
+	 	.circle{
+	 		width: 100px;
+	 		height: 100px;
+	 		border-radius: 50%;
+	 		position: absolute;
+	 		background-color: red;
+
+	 		animation-name: x;
+	 		animation-timing-function: linear;
+	 		animation-iteration-count: infinite;
+	 		animation-duration: 7s;
+	 		animation-direction: alternate;
+	 	}
+
+	 	.circle:hover{
+	 		animation-play-state: paused;
+	 	}
+
+	 	@keyframes x{
+	 		0%{
+	 			left: 0px;
+	 		}
+	 		18%{
+	 			left: 200px;
+	 			background-color: orange;
+	 	    }
+	 	    36%{
+	 	    	left: 400px;
+	 	    	background-color: yellow;
+	 	    }
+	 	    54%{
+	 	    	left: 600px;
+	 	    	background-color: lightgreen;
+	 	    }
+	 	    72%{
+	 	    	left: 800px;
+	 	    	background-color: teal;
+	 	    }
+	 	    85%{
+	 	    	left: 1000px;
+	 	    	background-color: lightblue;
+	 	    }
+	 	    100%{
+	 	    	left: 1200px;
+	 	    	background-color: purple;
+	 	    }
+	 	}
+	 </style>
+</head>
+<body>
+	<div class="circle">
+
+	</div>
+</body>
+</html>
