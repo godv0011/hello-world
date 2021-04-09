@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>图片廊</title>
+<style>
+div.img {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+}
+
+div.img:hover {
+	border: 1px solid #777;
+}
+
+div.img img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="responsive">
+	<div class="img">
+		<a target=" blank" href="http://pic.9ht.com/up/2018-10/15397637425461652.jpg">
+			<img src="http://pic.9ht.com/up/2018-10/15397637425461652.jpg" alt="图片文本描述" width="300" height="200">
+		</a>
+		<div class="desc">盲僧</div>
+	</div>
+</div>
+
+<div class="responsive">
+	<div class="img">
+		<a target="_blank" href="http://5b0988e595225.cdn.sohucs.com/images/20200109/855c73cb8cc24cb4b5b3ecda55ecc4a9.jpeg">
+			<img src="http://5b0988e595225.cdn.sohucs.com/images/20200109/855c73cb8cc24cb4b5b3ecda55ecc4a9.jpeg" alt="图片文本描述" width="300" height="200">
+		</a>
+		<div class="desc">腕豪</div>
+	</div>
+</div>
+
+<div class="responsive">
+	<div class="img">
+		<a target="_blank" href="https://pic2.52pk.com/files/210105/7914033_161926_1.jpg">
+			<img src="https://pic2.52pk.com/files/210105/7914033_161926_1.jpg" alt="图片文本描述" width="300" height="200">
+		</a>
+		<div class="desc">斯维因</div>
+	</div>
+</div>
+
+<div class="responsive">
+	<div class="img">
+		<a target="_blank" href="http://i2.hdslb.com/bfs/archive/0ab3e9b11738cedd144fa2bdae64e83cd693e43a.png">
+			<img src="http://i2.hdslb.com/bfs/archive/0ab3e9b11738cedd144fa2bdae64e83cd693e43a.png" alt="图片文本描述" width="300" height="200">
+		</a>
+		<div class="desc">永恩</div>
+	</div>
+</div>
+
+<div class="responsive">
+	<div class="img">
+		<a target="_blank" href="https://i0.hdslb.com/bfs/article/36bc023701b0ec506be769c7356c91337c8a24f6.jpg">
+			<img src="https://i0.hdslb.com/bfs/article/36bc023701b0ec506be769c7356c91337c8a24f6.jpg" alt="图片文本描述" width="300" height="200">
+		</a>
+		<div class="desc">奥恩</div>
+	</div>
+</div>
+
+<div class="responsive">
+	<div class="img">
+		<a target="_blank" href="http://5b0988e595225.cdn.sohucs.com/images/20190718/646bf72091bf43c48158689eb6fca07a.jpeg">
+			<img src="http://5b0988e595225.cdn.sohucs.com/images/20190718/646bf72091bf43c48158689eb6fca07a.jpeg" alt="图片文本描述" width="300" height="200">
+		</a>
+		<div class="desc">阿兹尔</div>
+	</div>
+</div>
+
+<div class="responsive">
+	<div class="img">
+		<a target="_blank" href="https://image.9game.cn/2020/9/17/176742381.jpg">
+			<img src="https://image.9game.cn/2020/9/17/176742381.jpg" alt="图片文本描述" width="300" height="200">
+		</a>
+		<div class="desc">莎弥拉</div>
+	</div>
+</div>
+</body>
+</html>
